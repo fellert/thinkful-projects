@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    font-family: 'Raleway';
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1443110189928-4448af4a2bc5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9aef14cb3e2a476d537aa5f680adcda6");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+}
+
+header {
+    padding: 20px 0 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+    margin-right: 15px;
+    font-size: 100px;
+}
+
+header i {
+    color: #000;
+    font-size: 100px;
+    color: #fff;
+}
+
+.sources {
+    margin: 0 300px;
+    text-align: center;
+}
+
+.lead-sources {
+    padding: 0;
+    text-align: center;
+}
+
+.lead-sources ul {
+    width: 100%;
+}
+
+.lead-sources li {
+    display: inline-block;
+}
+
+button {
+    font-family: 'Raleway';
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15px 30px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    transition: border 0.5s;
+    text-transform: uppercase;
+}
+
+:focus {
+    outline: none;
+}
+
+button:hover {
+    border: 1px solid transparent;
+}
+
+.results-container {
+    margin: 20px 300px 0 300px;
+}
+
+.template {
+    display: none;
+    border: 1px solid #fff;
+}
+
+
+
